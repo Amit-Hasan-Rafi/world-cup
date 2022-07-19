@@ -1,0 +1,63 @@
+#banner{
+    width: 80%;
+    height: 85%;
+    position: relative;
+    top: 8%;
+    left: 10%;
+    
+}
+#banner-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    background-image: url(assets/fild.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: inset 440px 0px 200px black;
+    border-radius: 15px;
+}
+
+#banner-container img{
+   height: 100%;
+   width: 125%;
+   position: relative;
+   right: 33%;
+}
+#banner-text h1{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    width: 50%;
+    
+    font-size: 50px;
+    text-align: left;
+    
+}
+#year{
+  font-size: 80px; 
+}
+#banner-text p{
+    color: white;
+    width: 50%;
+    font-family: 'Source Serif Pro', serif;
+}
+#banner-text{
+    position: relative;
+    top: 10%;
+    left: 8%;
+}
+#banner-button{
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    font-weight: 800;
+    font-size: x-large;
+    position: relative;
+    top: 17px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
